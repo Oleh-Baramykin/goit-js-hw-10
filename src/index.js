@@ -8,6 +8,7 @@ const input = document.querySelector('#search-box');
 const debounce = require('lodash.debounce');
 const countryList = document.querySelector('.country-list');
 const coutnryInfo = document.querySelector('.country-info');
+
 function lengthAudit(countries) {
   clearList();
   if (countries.length > 10) {
